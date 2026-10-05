@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/psr-event-dispatcher",
+    "description": "Tyhp type definitions for psr/event-dispatcher 1.0.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "1.0.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/psr-event-dispatcher-impl": "~1.0.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/psr-event-dispatcher-impl"
+        }
+    }
+}
